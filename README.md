@@ -17,4 +17,3 @@ npm install
 - Used Prop Types
 - ESLint + Prettier
 - Visual Studio Code
-# react-tic-tac-toe
