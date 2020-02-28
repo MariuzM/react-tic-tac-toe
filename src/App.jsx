@@ -108,13 +108,6 @@ export default function App() {
     return renderDiv
   }
 
-  // const RenderInnerDiv = () => {
-  //   const renderInnerDiv = []
-  //   for (let p = 0; p < 6; p += 1)
-  //     renderInnerDiv.push(<div key={p}>{renderSquare(p)}</div>)
-  //   return renderInnerDiv
-  // }
-
   return (
     <>
       <div style={flexStyle}>
@@ -123,8 +116,6 @@ export default function App() {
           : `Player ${x ? 'X' : 'O'} your move`}
       </div>
       <br />
-
-      {/* <RenderDiv /> */}
 
       <div>
         {renderSquare(0)}
