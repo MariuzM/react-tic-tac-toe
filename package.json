@@ -1,0 +1,35 @@
+{
+	"version": "1.0.0",
+	"main": "index.jsx",
+	"scripts": {
+		"start": "NODE_ENV=development parcel src/index.html --open",
+		"build": "NODE_ENV=production parcel build src/index.html --out-dir build --public-url ./"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.8.4",
+		"@babel/plugin-proposal-class-properties": "^7.8.3",
+		"@babel/plugin-transform-runtime": "^7.8.3",
+		"@babel/preset-env": "^7.8.4",
+		"@babel/preset-react": "^7.8.3",
+		"babel-eslint": "^10.0.3",
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-config-prettier": "^6.10.0",
+		"eslint-plugin-import": "^2.20.1",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-react": "^7.18.3",
+		"eslint-plugin-react-hooks": "^2.3.0",
+		"parcel-bundler": "^1.12.4",
+		"sass": "^1.25.0"
+	},
+	"dependencies": {
+		"@material-ui/core": "^4.9.1",
+		"prettier": "^1.19.1",
+		"prop-types": "^15.7.2",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0"
+	}
+}
