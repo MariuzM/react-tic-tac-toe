@@ -85,29 +85,6 @@ export default function App() {
     },
   }))
 
-  const RenderDiv = () => {
-    const renderDiv = []
-    for (let i = 0; i < 3; i += 1) {
-      renderDiv.push(
-        <div key={i}>
-          {() => {
-            const renderanother = []
-            for (let p = 0; p < 6; p += 1) {
-              renderanother.push(
-                <>
-                  {renderSquare(p)}
-                  {renderSquare(p)}
-                  {renderSquare(p)}
-                </>,
-              )
-            }
-          }}
-        </div>,
-      )
-    }
-    return renderDiv
-  }
-
   return (
     <>
       <div style={flexStyle}>
