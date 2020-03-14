@@ -82,6 +82,7 @@ export default function App() {
       margin: theme.spacing(0),
       marginTop: '20px',
       borderRadius: '0',
+      // backgroundColor: 'white',
     },
   }))
 
